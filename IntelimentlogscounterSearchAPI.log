@@ -1,0 +1,731 @@
+2017-04-17 02:31:53 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-04-17 02:31:53 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:53 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:53 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:53 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:53 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:53 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:53 DEBUG StandardServletEnvironment:175 - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2017-04-17 02:31:53 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Mon Apr 17 02:31:53 PDT 2017]; root of context hierarchy
+2017-04-17 02:31:53 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:53 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:53 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-04-17 02:31:53 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-security.xml]
+2017-04-17 02:31:53 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-04-17 02:31:54 DEBUG PluggableSchemaResolver:141 - Loading schema mappings from [META-INF/spring.schemas]
+2017-04-17 02:31:54 DEBUG PluggableSchemaResolver:147 - Loaded schema mappings: {http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/security/spring-security-3.0.3.xsd=org/springframework/security/config/spring-security-3.0.3.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/security/spring-security-2.0.1.xsd=org/springframework/security/config/spring-security-2.0.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.xsd=org/springframework/security/config/spring-security-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.4.xsd=org/springframework/security/config/spring-security-2.0.4.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/security/spring-security-3.2.xsd=org/springframework/security/config/spring-security-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/security/spring-security-3.1.xsd=org/springframework/security/config/spring-security-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/security/spring-security-4.0.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.2.xsd=org/springframework/security/config/spring-security-2.0.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/security/spring-security.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/security/spring-security-3.0.xsd=org/springframework/security/config/spring-security-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+2017-04-17 02:31:54 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-04-17 02:31:54 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/security/spring-security-4.0.xsd] in classpath: org/springframework/security/config/spring-security-4.0.xsd
+2017-04-17 02:31:54 DEBUG DefaultBeanDefinitionDocumentReader:108 - Loading bean definitions
+2017-04-17 02:31:54 DEBUG DefaultNamespaceHandlerResolver:157 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/security=org.springframework.security.config.SecurityNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-04-17 02:31:54 INFO  SecurityNamespaceHandler:78 - Spring Security 'config' module version is 4.0.2.RELEASE
+2017-04-17 02:31:54 INFO  AuthenticationConfigBuilder:539 - No login page configured. The default internal one will be used. Use the 'login-page' attribute to set the URL of the login page.
+2017-04-17 02:31:54 INFO  HttpSecurityBeanDefinitionParser:306 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.header.HeaderWriterFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 500, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 700, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 1100, Root bean: class [org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1500, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2000, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2100, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2200, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2300]
+2017-04-17 02:31:54 DEBUG XmlBeanDefinitionReader:223 - Loaded 30 bean definitions from location pattern [/WEB-INF/spring-security.xml]
+2017-04-17 02:31:54 DEBUG XmlWebApplicationContext:543 - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@777e5a7c: defining beans [org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,mySuccessHandler,myFailureHandler,restAuthenticationEntryPoint,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0,org.springframework.security.access.vote.AffirmativeBased#1,org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0,org.springframework.security.methodSecurityMetadataSourceAdvisor,org.springframework.aop.config.internalAutoProxyCreator]; root of factory hierarchy
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2017-04-17 02:31:55 DEBUG XmlWebApplicationContext:649 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7a6a5c2b]
+2017-04-17 02:31:55 DEBUG XmlWebApplicationContext:673 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@227d635f]
+2017-04-17 02:31:55 DEBUG UiApplicationContextUtils:85 - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@4c0f8798]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:669 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@777e5a7c: defining beans [org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,mySuccessHandler,myFailureHandler,restAuthenticationEntryPoint,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0,org.springframework.security.access.vote.AffirmativeBased#1,org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0,org.springframework.security.methodSecurityMetadataSourceAdvisor,org.springframework.aop.config.internalAutoProxyCreator]; root of factory hierarchy
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.filterChains'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.filterChains'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.filterChains' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.DefaultSecurityFilterChain#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.DefaultSecurityFilterChain#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#1'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#1'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#2'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.context.HttpSessionSecurityContextRepository#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.context.HttpSessionSecurityContextRepository#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.context.HttpSessionSecurityContextRepository#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.context.HttpSessionSecurityContextRepository#0'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#2'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#2'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#3'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#4'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#4'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#5'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#5'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#6'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#6'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#7'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#7'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#8'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#8'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#3'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#3'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#9'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#10'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#10'
+2017-04-17 02:31:55 DEBUG BeanUtils:441 - No property editor [org.springframework.security.web.authentication.logout.LogoutSuccessHandlerEditor] found for type org.springframework.security.web.authentication.logout.LogoutSuccessHandler according to 'Editor' suffix convention
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#11'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#11'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#9'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#9'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#12'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#12'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'mySuccessHandler'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'mySuccessHandler'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'mySuccessHandler' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'mySuccessHandler'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#13'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#13'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'myFailureHandler'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'myFailureHandler'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'myFailureHandler' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'myFailureHandler'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.authentication.ProviderManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.authentication.ProviderManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.authentication.AnonymousAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.authentication.AnonymousAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.authentication.AnonymousAuthenticationProvider#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.authentication.AnonymousAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.authenticationManager'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.authenticationManager'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.authentication.dao.DaoAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.authentication.dao.DaoAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.authentication.dao.DaoAuthenticationProvider#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.provisioning.InMemoryUserDetailsManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.provisioning.InMemoryUserDetailsManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#14'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#15'
+2017-04-17 02:31:55 DEBUG CachedIntrospectionResults:195 - Not strongly caching class [java.util.ArrayList] because it is not cache-safe
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#15'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#14'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.provisioning.InMemoryUserDetailsManager#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.provisioning.InMemoryUserDetailsManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.authentication.dao.DaoAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.authentication.dao.DaoAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.authenticationManager' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.authenticationManager'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.authenticationManager'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.authentication.ProviderManager#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#16'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#16'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#16'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.authentication.ProviderManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.authentication.ProviderManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#17'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#17'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#17'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#18'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.authentication.ProviderManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#18'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#18'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#19'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.savedrequest.HttpSessionRequestCache#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.savedrequest.HttpSessionRequestCache#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.savedrequest.HttpSessionRequestCache#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.PortResolverImpl#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.PortResolverImpl#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.PortResolverImpl#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.PortMapperImpl#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.PortMapperImpl#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.PortMapperImpl#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.PortMapperImpl#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.PortResolverImpl#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.savedrequest.HttpSessionRequestCache#0'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#19'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#19'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#20'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.authentication.ProviderManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#21'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#21'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'restAuthenticationEntryPoint'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'restAuthenticationEntryPoint'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'restAuthenticationEntryPoint' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'restAuthenticationEntryPoint'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#20'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#20'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#22'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#22'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#22'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#23'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.context.HttpSessionSecurityContextRepository#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#24'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#24'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#23'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#23'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#25'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'restAuthenticationEntryPoint'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.savedrequest.HttpSessionRequestCache#0'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#26'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#26'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#25'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#25'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.access.vote.AffirmativeBased#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.access.vote.AffirmativeBased#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#27'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#27'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.access.vote.AffirmativeBased#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.access.vote.AffirmativeBased#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.access.vote.AffirmativeBased#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.authentication.ProviderManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#28'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#28'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG FilterSecurityInterceptor:179 - Validated configuration attributes
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0'
+2017-04-17 02:31:55 INFO  DefaultSecurityFilterChain:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@6489cf7d, org.springframework.security.web.header.HeaderWriterFilter@13954b1c, org.springframework.security.web.authentication.logout.LogoutFilter@2e76254f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e8b7d5d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27d38cf4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@31cafb99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54c1359, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@458a3ac6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7618c0d4, org.springframework.security.web.session.SessionManagementFilter@531bdade, org.springframework.security.web.access.ExceptionTranslationFilter@49be4f72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d51eb30]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.DefaultSecurityFilterChain#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.DefaultSecurityFilterChain#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.filterChains'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.filterChains'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.filterChainProxy'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.filterChainProxy'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.filterChains'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG BeanUtils:441 - No property editor [org.springframework.security.web.SecurityFilterChainEditor] found for type org.springframework.security.web.SecurityFilterChain according to 'Editor' suffix convention
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.filterChainProxy' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#29'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#29'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.filterChainProxy'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.filterChainProxy'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.PortMapperImpl#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.PortResolverImpl#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.authentication.ProviderManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.context.HttpSessionSecurityContextRepository#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.savedrequest.HttpSessionRequestCache#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.access.vote.AffirmativeBased#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.authentication.AnonymousAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.userDetailsServiceFactory'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.userDetailsServiceFactory'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.userDetailsServiceFactory' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.userDetailsServiceFactory'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.web.DefaultSecurityFilterChain#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'mySuccessHandler'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'myFailureHandler'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'restAuthenticationEntryPoint'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.provisioning.InMemoryUserDetailsManager#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.authentication.dao.DaoAuthenticationProvider#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.authenticationManager'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.access.vote.AffirmativeBased#1'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.access.vote.AffirmativeBased#1'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#30'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#30'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#31'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#31'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.access.vote.AffirmativeBased#1' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.access.vote.AffirmativeBased#1'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.access.vote.AffirmativeBased#1'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0' to allow for resolving potential circular references
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.access.vote.AffirmativeBased#1'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#32'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#32'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG MethodSecurityInterceptor:179 - Validated configuration attributes
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2017-04-17 02:31:55 DEBUG XmlWebApplicationContext:700 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@296bc67d]
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2017-04-17 02:31:55 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2017-04-17 02:31:55 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name spring.liveBeansView.mbeanDomain is not bound in this Context
+2017-04-17 02:31:55 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2017-04-17 02:31:55 DEBUG JndiPropertySource:87 - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name spring.liveBeansView.mbeanDomain is not bound in this Context. Returning null.
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-04-17 02:31:55 DEBUG ContextLoader:320 - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2017-04-17 02:31:55 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2125 ms
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG DelegatingFilterProxy:177 - Initializing filter 'springSecurityFilterChain'
+2017-04-17 02:31:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.security.filterChainProxy'
+2017-04-17 02:31:55 DEBUG DelegatingFilterProxy:202 - Filter 'springSecurityFilterChain' configured successfully
+2017-04-17 02:31:55 DEBUG DispatcherServlet:118 - Initializing servlet 'dispatcher'
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-17 02:31:55 INFO  DispatcherServlet:479 - FrameworkServlet 'dispatcher': initialization started
+2017-04-17 02:31:55 DEBUG DispatcherServlet:607 - Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Mon Apr 17 02:31:53 PDT 2017]; root of context hierarchy]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [servletContextInitParams]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [jndiProperties]
+2017-04-17 02:31:55 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+2017-04-17 02:31:55 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name spring.profiles.active is not bound in this Context
+2017-04-17 02:31:55 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.profiles.active]
+2017-04-17 02:31:55 DEBUG JndiPropertySource:87 - JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name spring.profiles.active is not bound in this Context. Returning null.
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [systemProperties]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [systemEnvironment]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.profiles.active' in any property source. Returning [null]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [servletContextInitParams]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [jndiProperties]
+2017-04-17 02:31:55 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+2017-04-17 02:31:55 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name spring.profiles.default is not bound in this Context
+2017-04-17 02:31:55 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.profiles.default]
+2017-04-17 02:31:55 DEBUG JndiPropertySource:87 - JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name spring.profiles.default is not bound in this Context. Returning null.
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [systemProperties]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [systemEnvironment]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.profiles.default' in any property source. Returning [null]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [servletContextInitParams]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [jndiProperties]
+2017-04-17 02:31:55 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+2017-04-17 02:31:55 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name spring.profiles.default is not bound in this Context
+2017-04-17 02:31:55 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.profiles.default]
+2017-04-17 02:31:55 DEBUG JndiPropertySource:87 - JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name spring.profiles.default is not bound in this Context. Returning null.
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [systemProperties]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [systemEnvironment]
+2017-04-17 02:31:55 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.profiles.default' in any property source. Returning [null]
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:175 - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2017-04-17 02:31:55 DEBUG StandardServletEnvironment:175 - Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+2017-04-17 02:31:55 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 17 02:31:55 PDT 2017]; parent: Root WebApplicationContext
+2017-04-17 02:31:55 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-04-17 02:31:55 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-04-17 02:31:55 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-04-17 02:31:55 DEBUG PluggableSchemaResolver:141 - Loading schema mappings from [META-INF/spring.schemas]
+2017-04-17 02:31:55 DEBUG PluggableSchemaResolver:147 - Loaded schema mappings: {http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/security/spring-security-3.0.3.xsd=org/springframework/security/config/spring-security-3.0.3.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/security/spring-security-2.0.1.xsd=org/springframework/security/config/spring-security-2.0.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.xsd=org/springframework/security/config/spring-security-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.4.xsd=org/springframework/security/config/spring-security-2.0.4.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/security/spring-security-3.2.xsd=org/springframework/security/config/spring-security-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/security/spring-security-3.1.xsd=org/springframework/security/config/spring-security-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/security/spring-security-4.0.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.2.xsd=org/springframework/security/config/spring-security-2.0.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/security/spring-security.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/security/spring-security-3.0.xsd=org/springframework/security/config/spring-security-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+2017-04-17 02:31:55 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2017-04-17 02:31:55 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2017-04-17 02:31:55 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2017-04-17 02:31:55 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-3.0.xsd
+2017-04-17 02:31:55 DEBUG DefaultBeanDefinitionDocumentReader:108 - Loading bean definitions
+2017-04-17 02:31:55 DEBUG DefaultNamespaceHandlerResolver:157 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/security=org.springframework.security.config.SecurityNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-04-17 02:31:55 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-17 02:31:55 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-04-17 02:31:55 DEBUG PathMatchingResourcePatternResolver:553 - Looking for matching resources in directory tree [C:\Inteliment\CounterSearchAPI\target\classes\com\inteliment\counterapi\controller]
+2017-04-17 02:31:55 DEBUG PathMatchingResourcePatternResolver:615 - Searching directory [C:\Inteliment\CounterSearchAPI\target\classes\com\inteliment\counterapi\controller] for files matching pattern [C:/Inteliment/CounterSearchAPI/target/classes/com/inteliment/counterapi/controller/**/*.class]
+2017-04-17 02:31:55 DEBUG PathMatchingResourcePatternResolver:354 - Resolved location pattern [classpath*:com/inteliment/counterapi/controller/**/*.class] to resources [file [C:\Inteliment\CounterSearchAPI\target\classes\com\inteliment\counterapi\controller\CounterAPIController$1.class], file [C:\Inteliment\CounterSearchAPI\target\classes\com\inteliment\counterapi\controller\CounterAPIController.class], file [C:\Inteliment\CounterSearchAPI\target\classes\com\inteliment\counterapi\controller\RestAuthenticationEntryPoint.class], file [C:\Inteliment\CounterSearchAPI\target\classes\com\inteliment\counterapi\controller\RestAuthenticationSuccessHandler.class]]
+2017-04-17 02:31:56 DEBUG ClassPathBeanDefinitionScanner:284 - Identified candidate component class: file [C:\Inteliment\CounterSearchAPI\target\classes\com\inteliment\counterapi\controller\CounterAPIController.class]
+2017-04-17 02:31:56 DEBUG ClassPathBeanDefinitionScanner:284 - Identified candidate component class: file [C:\Inteliment\CounterSearchAPI\target\classes\com\inteliment\counterapi\controller\RestAuthenticationEntryPoint.class]
+2017-04-17 02:31:56 DEBUG XmlBeanDefinitionReader:223 - Loaded 18 bean definitions from location pattern [/WEB-INF/dispatcher-servlet.xml]
+2017-04-17 02:31:56 DEBUG XmlWebApplicationContext:543 - Bean factory for WebApplicationContext for namespace 'dispatcher-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@346949ee: defining beans [counterAPIController,restAuthenticationEntryPoint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@777e5a7c
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-04-17 02:31:56 DEBUG XmlWebApplicationContext:649 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7e33651e]
+2017-04-17 02:31:56 DEBUG XmlWebApplicationContext:673 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6033d54c]
+2017-04-17 02:31:56 DEBUG UiApplicationContextUtils:85 - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@1e988bac]
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:669 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@346949ee: defining beans [counterAPIController,restAuthenticationEntryPoint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@777e5a7c
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'counterAPIController'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'counterAPIController'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'counterAPIController' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'counterAPIController'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'restAuthenticationEntryPoint'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'restAuthenticationEntryPoint'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'restAuthenticationEntryPoint' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'restAuthenticationEntryPoint'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'mvcContentNegotiationManager'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'mvcContentNegotiationManager'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)'
+2017-04-17 02:31:56 DEBUG BeanUtils:441 - No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-17 02:31:56 DEBUG RequestMappingHandlerMapping:100 - Looking for request mappings in application context: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 17 02:31:55 PDT 2017]; parent: Root WebApplicationContext
+2017-04-17 02:31:56 INFO  RequestMappingHandlerMapping:182 - Mapped "{[/counter-api/top/{count}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.io.File com.inteliment.counterapi.controller.CounterAPIController.getTextWithHighestCounts(java.lang.Integer) throws java.io.IOException
+2017-04-17 02:31:56 INFO  RequestMappingHandlerMapping:182 - Mapped "{[/counter-api/search],methods=[POST],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public com.inteliment.counterapi.response.CounterResponseWrapper com.inteliment.counterapi.controller.CounterAPIController.getTextCount(com.inteliment.counterapi.request.CounterRequestWrapper)
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#1'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#1'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#2'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#2'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#3'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#3'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#4'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#4'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#5'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#5'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#6'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#6'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#7'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#7'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#8'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#8'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-17 02:31:56 DEBUG RequestMappingHandlerAdapter:622 - Looking for controller advice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 17 02:31:55 PDT 2017]; parent: Root WebApplicationContext
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'mvcUriComponentsContributor'
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+2017-04-17 02:31:56 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#9'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#10'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#10'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#11'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#11'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#12'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#12'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#13'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#13'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#14'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#14'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#15'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#15'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#16'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#16'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#17'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#17'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name '(inner bean)#9'
+2017-04-17 02:31:57 DEBUG RequestMappingHandlerAdapter:622 - Looking for controller advice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 17 02:31:55 PDT 2017]; parent: Root WebApplicationContext
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:245 - Returning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#9'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'mvcUriComponentsContributor'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#18'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#18'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#19'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#19'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#20'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#20'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#21'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#21'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#22'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#22'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#23'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#23'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean '(inner bean)#24'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean '(inner bean)#24'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG ExceptionHandlerExceptionResolver:303 - Looking for exception mappings: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 17 02:31:55 PDT 2017]; parent: Root WebApplicationContext
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:71 - Looking for URL mappings in application context: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 17 02:31:55 PDT 2017]; parent: Root WebApplicationContext
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'counterAPIController': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'restAuthenticationEntryPoint': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'environment': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'systemProperties': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'systemEnvironment': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'servletConfig': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'messageSource': no URL paths identified
+2017-04-17 02:31:57 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-04-17 02:31:57 DEBUG XmlWebApplicationContext:700 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@4d840107]
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-04-17 02:31:57 DEBUG DispatcherServlet:487 - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2017-04-17 02:31:57 DEBUG DispatcherServlet:509 - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@3237bbd2]
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2017-04-17 02:31:57 DEBUG DispatcherServlet:531 - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@41a2c9fd]
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2017-04-17 02:31:57 DEBUG DispatcherServlet:669 - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6bbc8ed5]
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver'
+2017-04-17 02:31:57 DEBUG DispatcherServlet:709 - No ViewResolvers found in servlet 'dispatcher': using default
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2017-04-17 02:31:57 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2017-04-17 02:31:57 DEBUG DispatcherServlet:731 - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@f62efe0]
+2017-04-17 02:31:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2017-04-17 02:31:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2017-04-17 02:31:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2017-04-17 02:31:57 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2017-04-17 02:31:57 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name spring.liveBeansView.mbeanDomain is not bound in this Context
+2017-04-17 02:31:57 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2017-04-17 02:31:57 DEBUG JndiPropertySource:87 - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name spring.liveBeansView.mbeanDomain is not bound in this Context. Returning null.
+2017-04-17 02:31:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-04-17 02:31:57 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-04-17 02:31:57 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-04-17 02:31:57 DEBUG DispatcherServlet:558 - Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+2017-04-17 02:31:57 INFO  DispatcherServlet:498 - FrameworkServlet 'dispatcher': initialization completed in 1394 ms
+2017-04-17 02:31:57 DEBUG DispatcherServlet:139 - Servlet 'dispatcher' configured successfully
